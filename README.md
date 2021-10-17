@@ -14,6 +14,7 @@
 - ESLint
 - Stylelint
 - Prettier
+- Editor config
 
 ### ✅ Testing
 
