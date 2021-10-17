@@ -7,7 +7,7 @@
 ### 🎨 Styles
 
 - Sass modules
-- Added default breakpoints mixins
+- Added mixin with default breakpoints
 
 ### 💅 Code Style
 
@@ -36,13 +36,13 @@
 2. Clone the new repository
 3. Install dependencies: ``yarn install``
 
-### Development
+### Server/Development
 
 1. Run server: ``yarn dev``
 
-### Production
+### Server/Production
 
-1. For generate bundle for production: ``yarn build``
+1. Generate build: ``yarn build``
 2. Run server: ``yarn start``
 
 ### Run tests
