@@ -1,0 +1,30 @@
+@import "../../styles/media";
+@import "../../styles/colors";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 2rem;
+  background-color: $color-pink-300;
+
+  @include tablet() {
+    background-color: $color-purple-300;
+  }
+
+  @include desktop() {
+    background-color: $color-deep-purple-300;
+    font-size: 2.5rem;
+  }
+
+  @include large() {
+    background-color: $color-indigo-300;
+    font-size: 3rem;
+  }
+
+  @include extra-large() {
+    background-color: $color-blue-300;
+    font-size: 3.5rem;
+  }
+}
