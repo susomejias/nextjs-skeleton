@@ -28,7 +28,7 @@
 - E2E tests
 - Code quality
 
-## How to use?
+## ❓ How to use
 
 ### Setup
 
