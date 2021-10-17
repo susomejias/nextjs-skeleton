@@ -10,7 +10,8 @@ module.exports = {
     '!**/coverage/**',
     '!jest.config.js',
     '!next.config.js',
-    '!src/pages/**'
+    '!src/pages/**',
+    '!src/__tests__/e2e/**'
   ],
   transform: {
     '^.+\\.tsx?$': 'babel-jest'
@@ -30,7 +31,7 @@ module.exports = {
   },
   transformIgnorePatterns: ['./node_modules/'],
   testPathIgnorePatterns: [
-    '<rootDir>/__tests__/e2e',
+    '<rootDir>/src/__tests__/e2e',
     '<rootDir>/src/__tests__/config',
     '<rootDir>/src/__mocks__',
     '<rootDir>/src/styles',
