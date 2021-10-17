@@ -30,6 +30,7 @@ module.exports = {
   },
   transformIgnorePatterns: ['./node_modules/'],
   testPathIgnorePatterns: [
+    '<rootDir>/__tests__/e2e',
     '<rootDir>/src/__tests__/config',
     '<rootDir>/src/__mocks__',
     '<rootDir>/src/styles',

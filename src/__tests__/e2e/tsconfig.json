@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "baseUrl": "../node_modules",
+    "target": "es6",
+    "lib": ["es6", "dom", "esnext"],
+    "types": ["cypress", "node"],
+    "esModuleInterop": true
+  },
+  "include": ["**/*.ts"]
+}

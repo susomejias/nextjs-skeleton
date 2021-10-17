@@ -1,0 +1,6 @@
+{
+  "rules": {
+    "jest/expect-expect": "off",
+    "cypress/no-unnecessary-waiting": "off"
+  }
+}

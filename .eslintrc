@@ -22,7 +22,8 @@
     "sourceType": "module"
   },
   "ignorePatterns": [
-    "*.json"
+    "*.json",
+    "src/__tests__/e2e/support/*.ts"
   ],
   "plugins": ["@typescript-eslint", "jest", "cypress"],
   "rules": {

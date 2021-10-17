@@ -1,0 +1,12 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "fixturesFolder": "src/__tests__/e2e/fixtures",
+  "pluginsFile": "src/__tests__/e2e/plugins/index.ts",
+  "integrationFolder": "src/__tests__/e2e/integration",
+  "screenshotsFolder": "src/__tests__/e2e/screenshots",
+  "videosFolder": "src/__tests__/e2e/videos",
+  "supportFile": "src/__tests__/e2e/support/index.ts",
+  "env": {
+    "RETRIES": 3
+  }
+}
